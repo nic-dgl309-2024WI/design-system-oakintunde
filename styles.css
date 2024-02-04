@@ -58,14 +58,9 @@ body {
     font-size: 17px;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: #260101;
-}
-
 .topnav a.active {
     background-color: #04aa6d;
-    color: #260101;
+    color: white;
 }
 
 .topnav .icon {
