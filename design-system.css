@@ -1,0 +1,44 @@
+/* Variables */
+:root {
+  --clr-primary: #260101; /* Main text color */
+  --clr-secondary: #275950; /* Secondary text color */
+  --clr-accent: #ff9800; /* Accent color */
+  --clr-background: #f0f0f0; /* Background color */
+}
+
+/* Header Component */
+.header {
+    background-color: var(--clr-background);
+    padding: 20px;
+}
+
+.header__logo {
+    color: var(--clr-primary);
+    font-size: 24px;
+}
+
+.header__navigation {
+    margin-top: 10px;
+}
+
+.header__link {
+    color: var(--clr-primary);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header__link--active {
+    font-weight: bold;
+}
+
+/* Footer Component */
+.footer {
+    background-color: var(--clr-background);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__text {
+    color: var(--clr-secondary);
+    font-size: 14px;
+}

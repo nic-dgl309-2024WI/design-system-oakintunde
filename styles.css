@@ -1,8 +1,8 @@
 :root {
-  --clr-primary: #000; /* black */
-  --clr-secondary: #9BF2EA; /* dark grey */
-  --clr-accent: #9BF2EA; /* dark grey */
-  --clr-light: #260101; /* very light grey */
+--clr-primary: #260101;  /* black */
+--clr-secondary: #275950;  /* dark grey */
+--clr-accent: #ff9800;  /* dark grey */
+--clr-light: #260101; /* very light grey */
   --clr-white: #fff; /* white */
   --clr-gray: #aaaaaa; /* Pale Gray */
   --clr-almostwhite: #eeeeee; /* Almost White */
@@ -15,7 +15,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Reset margins */
@@ -62,13 +62,26 @@ body {
     display: none;
 }
 
+.profilepix {
+    width: 500px;
+    height: 500px;
+}
+
+/** Side Bar Menu **/
+
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-    display: none;
+    .topnav a:not(:first-child),
+    .dropdown .dropdown-content {
+        display: none;
     }
-.topnav a.icon {
+
+    .topnav a.icon {
         float: right;
         display: block;
+    }
+    .profilepix {
+        width: inherit;
+        height: 200px;
     }
 }
 
@@ -90,8 +103,8 @@ body {
 
 /* Dropdown menu */
 .dropdown {
-    display: inline-flex;
-    flex-direction: column;
+    position: relative;
+    display: block;
 }
 
 .dropdown-content {
@@ -122,4 +135,3 @@ body {
 .dropbtn .fa-caret-down {
     margin-left: 5px;
 }
-
