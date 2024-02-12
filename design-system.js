@@ -1,3 +1,5 @@
+
+//NavBar Function
 function showNav() {
     var element1 = document.getElementsByClassName("c-top-navbar");
     var element2 = document.getElementsByClassName("c-side-navbar");

@@ -1,14 +1,14 @@
 :root {
   /*Color variables*/
-  --clr-text-primary: #605f4f;
-  --clr-bg-primary: #e6fef7;
-  --clr-text-secondary: #f4ffff;
-  --clr-bg-secondary: #fddb91;
-  --clr-accent: #ba2d0b;
-  --clr-bg-primary-100: #f4ffff;
+  --clr-text-primary: #070F2B;
+  --clr-bg-primary: #FEFBF6;
+  --clr-text-secondary: #211951;
+  --clr-bg-secondary: #F0F3FF;
+  --clr-accent: #F57D1F;
+  --clr-bg-primary-100: #211951;
   --clr-bg-primary-200: #b5f6eb;
-  --clr-bg-accent-100: #ff9e77;
-  --clr-bg-accent-200: #7a1700;
+  --clr-bg-accent-100: #ECB159;
+  --clr-bg-accent-200: #12372A;
 
   /*Font variables*/
   --heading-font: 'Cabin', sans-serif;

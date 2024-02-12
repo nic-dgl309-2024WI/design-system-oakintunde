@@ -35,7 +35,7 @@
 
 /*Styling for Colours page*/
 .colours-page {
-  background-color: #999999;
+  background-color: #DBE7C9;
 }
 
 /*Active state styling*/
@@ -71,7 +71,7 @@ h3 {
 }
 .colour-combinations__table-heading,
 .colour-combinations__table-data {
-  border: 1px solid #000;
+  border: 1px solid #294B29;
   padding: 10px;
 }
 
