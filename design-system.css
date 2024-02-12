@@ -83,12 +83,21 @@ h3 {
   .c-top-navbar,
   .c-side-navbar {
     display: block;
+    padding: 0 20px;
   }
   .c-desktop-header {
     display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
     justify-content: space-between;
   }
   .c-top-navbar__menu {
     display: flex;
   }
+}
+
+/*Logo Style*/
+.logo {
+  width: 100px; padding: 20px;
 }
